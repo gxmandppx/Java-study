@@ -1,0 +1,33 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: SpringBoot
+  thymeleaf:
+    cache: false #开关缓存，不然没法看到实时画面
+    mode: HTML #严格的HTML标准
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 258014
+    hikari:
+      maximum-pool-size: 30
+      minimum-idle: 10
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+logging:
+  level.org.springframework.web: DEBUG
+  file:
+    name: ./logs/SpringBoot.log

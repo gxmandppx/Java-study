@@ -1,0 +1,97 @@
+2021-08-23 21:40:17.856  INFO 11180 --- [main] com.mengying.Application                 : Starting Application using Java 11.0.12 on 梦影 with PID 11180 (D:\desk\Project\Java\SpringBoot\target\classes started by gxmandppx in D:\desk\Project\Java\SpringBoot)
+2021-08-23 21:40:17.865  INFO 11180 --- [main] com.mengying.Application                 : No active profile set, falling back to default profiles: default
+2021-08-23 21:40:18.479  WARN 11180 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mengying]' package. Please check your configuration.
+2021-08-23 21:40:18.769  INFO 11180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-23 21:40:18.780  INFO 11180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-23 21:40:18.780  INFO 11180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-08-23 21:40:18.781  INFO 11180 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-08-23 21:40:18.782  INFO 11180 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-08-23 21:40:18.782  INFO 11180 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-23 21:40:18.785  INFO 11180 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-08-23 21:40:18.857  INFO 11180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-23 21:40:18.857  INFO 11180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2021-08-23 21:40:19.007 DEBUG 11180 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23 21:40:19.056 DEBUG 11180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23 21:40:19.061  INFO 11180 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-23 21:40:19.084 DEBUG 11180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23 21:40:19.091 DEBUG 11180 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23 21:40:19.823  INFO 11180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-23 21:40:19.835  INFO 11180 --- [main] com.mengying.Application                 : Started Application in 2.7 seconds (JVM running for 4.113)
+2021-08-23 21:40:30.580  INFO 11180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-23 21:40:30.582  INFO 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-23 21:40:30.582 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-08-23 21:40:30.582 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-08-23 21:40:30.582 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-08-23 21:40:30.583 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4be8ea86
+2021-08-23 21:40:30.583 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6c7ff432
+2021-08-23 21:40:30.583 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-23 21:40:30.584  INFO 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-23 21:40:30.593 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/index", parameters={}
+2021-08-23 21:40:30.596 DEBUG 11180 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mengying.controller.ThymeleafController#index(Model)
+2021-08-23 21:40:30.620 DEBUG 11180 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-23 21:40:30.622 DEBUG 11180 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["index"]
+2021-08-23 21:40:30.628 DEBUG 11180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-23 21:41:38.690  INFO 8156 --- [main] com.mengying.Application                 : Starting Application using Java 11.0.12 on 梦影 with PID 8156 (D:\desk\Project\Java\SpringBoot\target\classes started by gxmandppx in D:\desk\Project\Java\SpringBoot)
+2021-08-23 21:41:38.692  INFO 8156 --- [main] com.mengying.Application                 : No active profile set, falling back to default profiles: default
+2021-08-23 21:41:39.247  WARN 8156 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mengying]' package. Please check your configuration.
+2021-08-23 21:41:39.532  INFO 8156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-23 21:41:39.541  INFO 8156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-23 21:41:39.542  INFO 8156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-08-23 21:41:39.544  INFO 8156 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-08-23 21:41:39.544  INFO 8156 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-08-23 21:41:39.544  INFO 8156 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-23 21:41:39.547  INFO 8156 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-08-23 21:41:39.615  INFO 8156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-23 21:41:39.616  INFO 8156 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 886 ms
+2021-08-23 21:41:39.762 DEBUG 8156 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23 21:41:39.828 DEBUG 8156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23 21:41:39.836  INFO 8156 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-23 21:41:39.858 DEBUG 8156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23 21:41:39.865 DEBUG 8156 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23 21:41:40.558  INFO 8156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-23 21:41:40.568  INFO 8156 --- [main] com.mengying.Application                 : Started Application in 2.451 seconds (JVM running for 3.566)
+2021-08-23 21:41:46.038  INFO 8156 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-23 21:41:46.039  INFO 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-23 21:41:46.040 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-08-23 21:41:46.040 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-08-23 21:41:46.040 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-08-23 21:41:46.041 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18abcbe0
+2021-08-23 21:41:46.041 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7dec0988
+2021-08-23 21:41:46.041 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-23 21:41:46.041  INFO 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-23 21:41:46.049 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/index", parameters={}
+2021-08-23 21:41:46.053 DEBUG 8156 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mengying.controller.ThymeleafController#index(Model)
+2021-08-23 21:41:46.071 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-08-23 21:41:46.315 DEBUG 8156 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-23 21:43:22.408  INFO 8576 --- [main] com.mengying.Application                 : Starting Application using Java 11.0.12 on 梦影 with PID 8576 (D:\desk\Project\Java\SpringBoot\target\classes started by gxmandppx in D:\desk\Project\Java\SpringBoot)
+2021-08-23 21:43:22.412  INFO 8576 --- [main] com.mengying.Application                 : No active profile set, falling back to default profiles: default
+2021-08-23 21:43:22.970  WARN 8576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mengying]' package. Please check your configuration.
+2021-08-23 21:43:23.255  INFO 8576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-23 21:43:23.263  INFO 8576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-23 21:43:23.263  INFO 8576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-08-23 21:43:23.264  INFO 8576 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-08-23 21:43:23.265  INFO 8576 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-08-23 21:43:23.265  INFO 8576 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-23 21:43:23.269  INFO 8576 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-08-23 21:43:23.339  INFO 8576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-23 21:43:23.340  INFO 8576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 889 ms
+2021-08-23 21:43:23.480 DEBUG 8576 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-23 21:43:23.543 DEBUG 8576 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2021-08-23 21:43:23.552  INFO 8576 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-23 21:43:23.573 DEBUG 8576 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-23 21:43:23.582 DEBUG 8576 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-23 21:43:24.368  INFO 8576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-23 21:43:24.380  INFO 8576 --- [main] com.mengying.Application                 : Started Application in 2.421 seconds (JVM running for 3.895)
+2021-08-23 21:43:32.447  INFO 8576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-23 21:43:32.449  INFO 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-23 21:43:32.449 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-08-23 21:43:32.449 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-08-23 21:43:32.449 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-08-23 21:43:32.450 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4ae333cc
+2021-08-23 21:43:32.450 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3100f14c
+2021-08-23 21:43:32.450 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-23 21:43:32.450  INFO 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-23 21:43:32.458 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/index", parameters={}
+2021-08-23 21:43:32.462 DEBUG 8576 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mengying.controller.ThymeleafController#index(Model)
+2021-08-23 21:43:32.479 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-08-23 21:43:32.722 DEBUG 8576 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
