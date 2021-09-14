@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ca95a89-8410-4bc1-943a-e9434f87ea0a" name="更改" comment="" />
+    <list default="true" id="a1709570-25da-4bf1-8881-585266fda36a" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +26,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1xtY72tgP9KEZ1alVlIFTPiETxb" />
+  <component name="ProjectId" id="1xyIzCVjWdwc9MCkx2Ss99Oxq3M" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,40 +35,42 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.50608695" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\desk\Project\Java-study\Mybatis\src\main\resources" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="UserMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mybatis(PostgreSQL)" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserMapperTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mengying.Main" />
+      <module name="JavaPTA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mengying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserMapperTest" />
+        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="1ca95a89-8410-4bc1-943a-e9434f87ea0a" name="更改" comment="" />
-      <created>1631175680748</created>
+      <changelist id="a1709570-25da-4bf1-8881-585266fda36a" name="更改" comment="" />
+      <created>1631321167161</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1631175680748</updated>
-      <workItem from="1631175682181" duration="2039000" />
-      <workItem from="1631178955142" duration="1801000" />
-      <workItem from="1631236606111" duration="872000" />
+      <updated>1631321167161</updated>
+      <workItem from="1631321169540" duration="2722000" />
+      <workItem from="1631594847362" duration="55000" />
+      <workItem from="1631595199032" duration="113000" />
     </task>
     <servers />
   </component>
