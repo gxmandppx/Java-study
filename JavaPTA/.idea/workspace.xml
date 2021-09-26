@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1709570-25da-4bf1-8881-585266fda36a" name="更改" comment="" />
+    <list default="true" id="a1709570-25da-4bf1-8881-585266fda36a" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/mengying/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -27,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1xyIzCVjWdwc9MCkx2Ss99Oxq3M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,10 +45,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../JDK/JDK(Amazon)" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.50608695" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,6 +82,20 @@
       <workItem from="1631321169540" duration="2722000" />
       <workItem from="1631594847362" duration="55000" />
       <workItem from="1631595199032" duration="113000" />
+      <workItem from="1631669687987" duration="246000" />
+      <workItem from="1631669992973" duration="77000" />
+      <workItem from="1631674961869" duration="1129000" />
+      <workItem from="1631769570677" duration="211000" />
+      <workItem from="1631776813785" duration="277000" />
+      <workItem from="1631777172500" duration="1617000" />
+      <workItem from="1631865056775" duration="109000" />
+      <workItem from="1631865209375" duration="28000" />
+      <workItem from="1631867056925" duration="2403000" />
+      <workItem from="1631871663330" duration="294000" />
+      <workItem from="1632123920601" duration="88000" />
+      <workItem from="1632124079878" duration="975000" />
+      <workItem from="1632126140558" duration="44000" />
+      <workItem from="1632126275778" duration="29000" />
     </task>
     <servers />
   </component>
