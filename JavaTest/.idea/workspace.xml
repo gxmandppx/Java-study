@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10059b4e-8cff-41e2-a76b-ee5553319755" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -79,6 +78,9 @@
       <workItem from="1630892963091" duration="2449000" />
       <workItem from="1630913543624" duration="462000" />
       <workItem from="1632802143663" duration="81000" />
+      <workItem from="1633689864312" duration="82000" />
+      <workItem from="1633689976421" duration="63000" />
+      <workItem from="1634027166181" duration="64000" />
     </task>
     <servers />
   </component>
