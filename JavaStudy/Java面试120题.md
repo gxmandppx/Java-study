@@ -222,12 +222,7 @@ Java集合类框架的基本接口有哪些？
 
 # 参考答案
 
-集合类接口指定了一组叫做元素的对象。集合类接口的每一种具体的实现类都可以选择以它自己的方式对元素进行保存和排序。有的集合类允许重复的键，有些不允许。
-Java集合类提供了一套设计良好的支持对一组对象进行操作的接口和类。Java集合类里面最基本的接口有：
-Collection：代表一组对象，每一个对象都是它的子元素。
-Set：不包含重复元素的Collection。
-List：有顺序的collection，并且可以包含重复元素。
-Map：可以把键(key)映射到值(value)的对象，键不能重复。
+总共有两大接口：Collection 和Map ，一个元素集合，一个是键值对集合；  其中List和Set接口继承了Collection接口，一个是有序元素集合，一个是无序元素集合； 而ArrayList和  LinkedList 实现了List接口，HashSet实现了Set接口，这几个都比较常用； HashMap 和HashTable实现了Map接口，并且HashTable是线程安全的，但是HashMap性能更好；
 
 ## 问答题*19* /120
 
@@ -292,7 +287,7 @@ Java中的HashMap的工作原理是什么？
 
 # 参考答案
 
-Java中的HashMap是以键值对(key-value)的形式存储元素的。HashMap需要一个hash函数，它使用hashCode()和equals()方法来向集合/从集合添加和检索元素。当调用put()方法的时候，HashMap会计算key的hash值，然后把键值对存储在集合中合适的索引上。如果key已经存在了，value会被更新成新值。HashMap的一些重要的特性是它的容量(capacity)，负载因子(load factor)和扩容极限(threshold resizing)。
+hashmap是键值对集合，当存储数据时，会根据key得到一个哈希码，然后查询该下标的数组元素是否有key这个值，如果有就覆盖value，如果没有则把值加在链表尾端
 
 ## 问答题*24* /120
 
